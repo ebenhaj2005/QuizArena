@@ -1,21 +1,16 @@
-//
-//  QuizArenaApp.swift
-//  QuizArena
-//
-//  Created by Bilal Masungi on 07/01/2026.
-//
-
 import SwiftUI
-import CoreData
+import FirebaseCore
 
 @main
 struct QuizArenaApp: App {
-    let persistenceController = PersistenceController.shared
+
+    init() {
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            HomeView()
         }
     }
 }

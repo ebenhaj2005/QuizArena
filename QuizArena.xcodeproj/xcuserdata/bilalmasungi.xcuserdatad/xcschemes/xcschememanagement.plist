@@ -4,10 +4,50 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QuizArena.xcscheme_^#shared#^_</key>
+		<key>Copy of Copy of Copy of QuizArena.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Copy of Copy of QuizArena.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Copy of QuizArena.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Promises (Playground).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>QuizArena.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BDAC6D932F0E985A008F7165</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDAC6DA52F0E985A008F7165</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDAC6DAF2F0E985B008F7165</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

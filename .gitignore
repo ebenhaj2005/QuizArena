@@ -1,0 +1,24 @@
+# Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.moved-aside
+*.xcscmblueprint
+*.xccheckout
+
+# SwiftPM
+.build/
+Package.resolved
+
+# CocoaPods (als je ooit pods gebruikt)
+Pods/
+
+
+
+# Fastlane (optioneel)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
