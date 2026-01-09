@@ -11,12 +11,7 @@
 		BDAC6DCC2F0EA0A1008F7165 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BDAC6DCB2F0EA0A1008F7165 /* FirebaseAnalytics */; };
 		BDAC6DCE2F0EA0A1008F7165 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BDAC6DCD2F0EA0A1008F7165 /* FirebaseAuth */; };
 		BDAC6DD02F0EA0A1008F7165 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDAC6DCF2F0EA0A1008F7165 /* FirebaseFirestore */; };
-		BDAC6DD62F0EAC34008F7165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAC6DD52F0EAC34008F7165 /* GoogleService-Info.plist */; };
-		BDAC6DDB2F0EAE53008F7165 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC6DDA2F0EAE4B008F7165 /* AuthService.swift */; };
-		BDAC6DDD2F0EAEA8008F7165 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC6DDC2F0EAEA0008F7165 /* FirestoreService.swift */; };
-		BDAC6DDF2F0EAEC3008F7165 /* LobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC6DDE2F0EAEBC008F7165 /* LobbyViewModel.swift */; };
 		BDAC6DF42F0EC479008F7165 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = BDAC6DF32F0EC479008F7165 /* FirebaseCore */; };
-		BDAC6DF52F0ECB65008F7165 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC6DEF2F0EC28D008F7165 /* QuizViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +36,24 @@
 		BDAC6D942F0E985A008F7165 /* QuizArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC6DA62F0E985A008F7165 /* QuizArenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizArenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC6DB02F0E985B008F7165 /* QuizArenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizArenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDAC6DD52F0EAC34008F7165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BDAC6DDA2F0EAE4B008F7165 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		BDAC6DDC2F0EAEA0008F7165 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
-		BDAC6DDE2F0EAEBC008F7165 /* LobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewModel.swift; sourceTree = "<group>"; };
-		BDAC6DEF2F0EC28D008F7165 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BD788D002F1084CC00542B9B /* Exceptions for "QuizArena" folder in "QuizArena" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BDAC6D932F0E985A008F7165 /* QuizArena */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BDAC6D962F0E985A008F7165 /* QuizArena */ = {
+		BD788CEA2F107FC800542B9B /* QuizArena */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BD788D002F1084CC00542B9B /* Exceptions for "QuizArena" folder in "QuizArena" target */,
+			);
 			path = QuizArena;
 			sourceTree = "<group>";
 		};
@@ -99,15 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				BD788C5D2F106E9F00542B9B /* .gitignore */,
-				BDAC6D962F0E985A008F7165 /* QuizArena */,
+				BD788CEA2F107FC800542B9B /* QuizArena */,
 				BDAC6DA92F0E985A008F7165 /* QuizArenaTests */,
 				BDAC6DB32F0E985B008F7165 /* QuizArenaUITests */,
 				BDAC6D952F0E985A008F7165 /* Products */,
-				BDAC6DD52F0EAC34008F7165 /* GoogleService-Info.plist */,
-				BDAC6DDA2F0EAE4B008F7165 /* AuthService.swift */,
-				BDAC6DDC2F0EAEA0008F7165 /* FirestoreService.swift */,
-				BDAC6DDE2F0EAEBC008F7165 /* LobbyViewModel.swift */,
-				BDAC6DEF2F0EC28D008F7165 /* QuizViewModel.swift */,
 				BDAC6DF22F0EC3ED008F7165 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -145,7 +143,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BDAC6D962F0E985A008F7165 /* QuizArena */,
+				BD788CEA2F107FC800542B9B /* QuizArena */,
 			);
 			name = QuizArena;
 			packageProductDependencies = (
@@ -257,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD788C5E2F106EA900542B9B /* .gitignore in Resources */,
-				BDAC6DD62F0EAC34008F7165 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAC6DDD2F0EAEA8008F7165 /* FirestoreService.swift in Sources */,
-				BDAC6DDF2F0EAEC3008F7165 /* LobbyViewModel.swift in Sources */,
-				BDAC6DDB2F0EAE53008F7165 /* AuthService.swift in Sources */,
-				BDAC6DF52F0ECB65008F7165 /* QuizViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +441,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizArena/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We gebruiken je locatie om je positie op de kaart te tonen.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -492,6 +488,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizArena/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We gebruiken je locatie om je positie op de kaart te tonen.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
